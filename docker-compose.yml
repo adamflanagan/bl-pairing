@@ -1,0 +1,19 @@
+app:
+  build: .
+  ports:
+    - "8888:8888"
+  volumes:
+    - .:/code
+  links:
+    - db
+  environment:
+    - POSTGRES_PASSWORD=land_registry
+    - POSTGRES_USER=land_registry
+  working_dir: /code
+db:
+  image: postgres:9.6
+  ports:
+   - "5432:5432"
+  environment:
+    - POSTGRES_PASSWORD=land_registry
+    - POSTGRES_USER=land_registry
