@@ -59,7 +59,7 @@ pexpect==4.2.1
 pickleshare==0.7.3
 Pillow==4.2.1
 prompt-toolkit==1.0.14
-psutil==5.2.1
+psutil==5.6.6
 psycopg2==2.7.3
 ptyprocess==0.5.2
 pycosat==0.6.1
