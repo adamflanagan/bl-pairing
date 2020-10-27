@@ -9,7 +9,7 @@ chardet==3.0.2
 click==6.7
 cloudpickle==0.2.2
 conda==4.3.22
-cryptography==1.9
+cryptography==3.2
 cycler==0.10.0
 Cython==0.25.2
 dask==0.15.1
