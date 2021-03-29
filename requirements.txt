@@ -64,7 +64,7 @@ psycopg2==2.7.3
 ptyprocess==0.5.2
 pycosat==0.6.1
 pycparser==2.18
-Pygments==2.2.0
+Pygments==2.7.4
 pyOpenSSL==16.2.0
 pyparsing==2.2.0
 PySocks==1.6.7
